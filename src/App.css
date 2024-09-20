@@ -1,0 +1,28 @@
+body{
+  background: #797fa5;
+}
+
+
+
+.service-input{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 12px 0; 
+}
+
+.service-input input{
+  margin: 8px 0;
+  height: 24px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.service-input button{
+  width: 100px;
+  margin: 5px auto;
+  height: 24px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+}

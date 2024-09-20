@@ -1,0 +1,40 @@
+.serviceCard{
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(207, 202, 202, 0.5);
+  background: #fff;
+  width: 700px;
+}
+.edit{
+    width: 70px;
+    margin: 5px;
+    background: rgba(78, 78, 211, 0.705);
+    color: #fff;
+    border-radius: 15px;
+}
+.delete{
+    width: 70px;
+    margin: 5px;
+    background: rgb(250, 40, 2);
+    color: #fff;
+    border-radius: 15px;
+}
+
+.edit:active, .delete:active{
+    background: #cccccc98;
+}
+
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container li{
+    list-style: none;
+}
